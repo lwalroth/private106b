@@ -1,0 +1,124 @@
+Tadd2
+v7
+r0
+t411271130.245033
+cCheck dependencies
+cProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+cCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /laurie/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./add2.app/Contents/MacOS/add2 normal i386
+cTouch ./add2.app
+
+N./add2.app
+t1389578330
+s102
+
+N./add2.app/Contents/Info.plist
+t1389578327
+s710
+
+N./add2.app/Contents/MacOS/add2
+t1389578330
+s38624
+
+N./add2.app/Contents/PkgInfo
+t1389578327
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/add2/add2.cpp
+c0000000052D3467800000000000001D0
+t1389577848
+s464
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+
+N/laurie/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.LinkFileList
+c0000000052D34857000000000000004A
+t1389578327
+s74
+
+N/laurie/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+t1389578328
+s66808
+
+N/laurie/add2/cs106/genlib.h
+c0000000052D346FF0000000000000455
+t1389577983
+s1109
+i<string>
+
+N/laurie/add2/cs106/libcs106.a
+c0000000052D346FF000000000004C730
+t1389577983
+s313136
+
+N/laurie/add2/cs106/simpio.h
+c0000000052D346FF0000000000000668
+t1389577983
+s1640
+i"genlib.h"
+
+NInfo.plist
+c0000000052D346FF0000000000000326
+t1389577983
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411271127#411271127#0(0"0(0#1#0"4231192#0"0#
+
+CCompileC build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o /laurie/add2/add2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411271127.615166
+e411271128.481462
+r1
+xCompileC
+xbuild/add2.build/Debug/add2.build/Objects-normal/i386/add2.o
+x/laurie/add2/add2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Compile /laurie/add2/add2.cpp411271127#411271128#0(0"0(0#0#21"/laurie/add2/add2.cpp2453479920#617"    cd /laurie/add2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/add2/build/add2.build/Debug/add2.build/add2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/add2/build/add2.build/Debug/add2.build/DerivedSources/i386 -I/laurie/add2/build/add2.build/Debug/add2.build/DerivedSources -fstack-check -c /laurie/add2/add2.cpp -o /laurie/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o0#
+
+CLd ./add2.app/Contents/MacOS/add2 normal i386
+s411271128.481687
+e411271130.239455
+r1
+xLd
+x./add2.app/Contents/MacOS/add2
+xnormal
+xi386
+lSLF07#2@35"Link ./add2.app/Contents/MacOS/add2411271128#411271130#0(0"0(0#0#0"4231192#292"    cd /laurie/add2    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/add2/cs106 -F. -filelist /laurie/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./add2.app/Contents/MacOS/add20#
+
+CProcessInfoPlistFile ./add2.app/Contents/Info.plist Info.plist
+s411271127.602210
+e411271127.615008
+r1
+xProcessInfoPlistFile
+x./add2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411271127#411271127#0(0"0(0#0#23"/laurie/add2/Info.plist4717520#172"    cd /laurie/add2    builtin-infoPlistUtility Info.plist -genpkginfo ./add2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./add2.app/Contents/Info.plist0#
+
+CTouch ./add2.app
+s411271130.239657
+e411271130.244965
+r1
+xTouch
+x./add2.app
+lSLF07#2@16"Touch ./add2.app411271130#411271130#0(0"0(0#0#0"2453479920#53"    cd /laurie/add2    /usr/bin/touch -c ./add2.app0#
+

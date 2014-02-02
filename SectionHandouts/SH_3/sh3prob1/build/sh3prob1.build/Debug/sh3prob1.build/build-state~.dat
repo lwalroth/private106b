@@ -1,0 +1,95 @@
+Tsh3prob1
+v7
+r0
+t412900431.944606
+cCheck dependencies
+cProcessInfoPlistFile ./sh3prob1.app/Contents/Info.plist Info.plist
+cCompileC build/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/MainProg.o /laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./sh3prob1.app
+t2
+s0
+
+N./sh3prob1.app/Contents/Info.plist
+t1391207631
+s722
+
+N./sh3prob1.app/Contents/MacOS/sh3prob1
+t2
+s0
+
+N./sh3prob1.app/Contents/PkgInfo
+t1391207631
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp
+c0000000052EC24CF0000000000000307
+t1391207631
+s775
+
+N/laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/MainProg.o
+t2
+s0
+
+N/laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/sh3prob1.LinkFileList
+c0000000052EC24CF000000000000006F
+t1391207631
+s111
+
+N/laurie/SectionHandouts/SH_3/sh3prob1/cs106/libcs106.a
+c0000000052EC235F000000000004C730
+t1391207263
+s313136
+
+NInfo.plist
+c0000000052EC235F0000000000000326
+t1391207263
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412900431#412900431#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/MainProg.o /laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412900431.889664
+e412900431.944522
+r0
+xCompileC
+xbuild/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/MainProg.o
+x/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#412900431#0(2211"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp: In function 'std::string CmpByLastName(entryT, entryT)':/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:29: error: invalid conversion from 'int' to 'const char*'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:29: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:31: error: invalid conversion from 'int' to 'const char*'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:31: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp: In function 'std::string CmpByFirstName(entryT, entryT)':/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:35: error: invalid conversion from 'int' to 'const char*'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:35: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:37: error: invalid conversion from 'int' to 'const char*'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:37: error:   initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp: In function 'int Main()':/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:42: error: 'Set' was not declared in this scope/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:42: error: expected primary-expression before '>' token/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:42: error: 'cmpByLastName' was not declared in this scope/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp:42: error: 'set' was not declared in this scope12(4@46"Invalid conversion from 'int' to 'const char*'412900431#109#109#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#29#0#29#0#34"invalid conversion from '*' to '*'0(4@201"Initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'412900431#218#266#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#29#0#29#0#0"0(4@46"Invalid conversion from 'int' to 'const char*'412900431#484#109#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#31#0#31#0#34"invalid conversion from '*' to '*'0(4@201"Initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'412900431#593#266#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#31#0#31#0#0"0(4@46"Invalid conversion from 'int' to 'const char*'412900431#969#109#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#35#0#35#0#34"invalid conversion from '*' to '*'0(4@201"Initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'412900431#1078#266#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#35#0#35#0#0"0(4@46"Invalid conversion from 'int' to 'const char*'412900431#1344#109#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#37#0#37#0#34"invalid conversion from '*' to '*'0(4@201"Initializing argument 1 of 'std::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with _CharT = char, _Traits = std::char_traits<char>, _Alloc = std::allocator<char>]'412900431#1453#266#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#37#0#37#0#0"0(4@36"'Set' was not declared in this scope412900431#1797#99#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#42#0#42#0#34"'*' was not declared in this scope0(4@44"Expected primary-expression before '>' token412900431#1896#107#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#42#0#42#0#19"expected * before *0(4@46"'cmpByLastName' was not declared in this scope412900431#2003#109#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#42#0#42#0#34"'*' was not declared in this scope0(4@36"'set' was not declared in this scope412900431#2112#99#0(6@50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp412900431#42#0#42#0#34"'*' was not declared in this scope0(0#0#50"/laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp2453479920#811"    cd /laurie/SectionHandouts/SH_3/sh3prob1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/sh3prob1.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/DerivedSources/i386 -I/laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/DerivedSources -fstack-check -c /laurie/SectionHandouts/SH_3/sh3prob1/MainProg.cpp -o /laurie/SectionHandouts/SH_3/sh3prob1/build/sh3prob1.build/Debug/sh3prob1.build/Objects-normal/i386/MainProg.o1#
+
+CLd ./sh3prob1.app/Contents/MacOS/sh3prob1 normal i386
+r0
+
+CProcessInfoPlistFile ./sh3prob1.app/Contents/Info.plist Info.plist
+s412900431.883201
+e412900431.889518
+r1
+xProcessInfoPlistFile
+x./sh3prob1.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412900431#412900431#0(0"0(0#0#48"/laurie/SectionHandouts/SH_3/sh3prob1/Info.plist2453479920#205"    cd /laurie/SectionHandouts/SH_3/sh3prob1    builtin-infoPlistUtility Info.plist -genpkginfo ./sh3prob1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./sh3prob1.app/Contents/Info.plist0#
+
+CTouch ./sh3prob1.app
+r0
+

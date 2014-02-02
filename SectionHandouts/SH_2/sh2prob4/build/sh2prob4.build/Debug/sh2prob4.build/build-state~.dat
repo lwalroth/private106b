@@ -1,0 +1,32 @@
+Tsh2prob4
+v7
+r1
+cCheck dependencies
+
+N./sh2prob4.app
+t2
+s0
+
+N./sh2prob4.app/Contents/Info.plist
+t2
+s0
+
+N./sh2prob4.app/Contents/PkgInfo
+t2
+s0
+
+NInfo.plist
+c0000000052E9CA3C0000000000000326
+t1391053372
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412747628#412747628#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'412747628#4294967295#0#0(1@0"0(0#1#0"2453479920#0"0#
+
+CProcessInfoPlistFile ./sh2prob4.app/Contents/Info.plist Info.plist
+r0
+
+CTouch ./sh2prob4.app
+r0
+

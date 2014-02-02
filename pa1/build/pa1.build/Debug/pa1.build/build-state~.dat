@@ -1,0 +1,46 @@
+Tpa1
+v7
+r0
+t411269361.831984
+cCheck dependencies
+cProcessInfoPlistFile ./pa1.app/Contents/Info.plist Info.plist
+cTouch ./pa1.app
+
+N./pa1.app
+t1389576561
+s102
+
+N./pa1.app/Contents/Info.plist
+t1389576561
+s707
+
+N./pa1.app/Contents/PkgInfo
+t1389576561
+s8
+
+NInfo.plist
+c0000000052D340CB0000000000000326
+t1389576395
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411269361#411269361#0(0"0(0#1#0"4231192#0"0#
+
+CProcessInfoPlistFile ./pa1.app/Contents/Info.plist Info.plist
+s411269361.698281
+e411269361.785262
+r1
+xProcessInfoPlistFile
+x./pa1.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411269361#411269361#0(0"0(0#0#22"/laurie/pa1/Info.plist4231192#169"    cd /laurie/pa1    builtin-infoPlistUtility Info.plist -genpkginfo ./pa1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./pa1.app/Contents/Info.plist0#
+
+CTouch ./pa1.app
+s411269361.785517
+e411269361.831764
+r1
+xTouch
+x./pa1.app
+lSLF07#2@15"Touch ./pa1.app411269361#411269361#0(0"0(0#0#0"4717520#51"    cd /laurie/pa1    /usr/bin/touch -c ./pa1.app0#
+

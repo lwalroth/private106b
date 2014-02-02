@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 990AAD76189960F5006881AA /* sh2_pb2 */;
+		activeTarget = 8D1107260486CEB800E47090 /* sh2_pb2 */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* sh2_pb2 */,
+		);
+		codeSenseManager = 990AAD7C18996114006881AA /* Code sense */;
+		executables = (
+			990AAD76189960F5006881AA /* sh2_pb2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 412705165;
+			PBXWorkspaceStateSaveDate = 412705165;
+		};
+		perUserProjectItems = {
+			990AADC518998305006881AA /* PBXTextBookmark */ = 990AADC518998305006881AA /* PBXTextBookmark */;
+			990AADC618998305006881AA /* PBXTextBookmark */ = 990AADC618998305006881AA /* PBXTextBookmark */;
+			990AADC718998305006881AA /* PBXTextBookmark */ = 990AADC718998305006881AA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 990AAD7B18996114006881AA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* sh2_pb2 */ = {
+		activeExec = 0;
+		executables = (
+			990AAD76189960F5006881AA /* sh2_pb2 */,
+		);
+	};
+	990AAD76189960F5006881AA /* sh2_pb2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = sh2_pb2;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	990AAD7B18996114006881AA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	990AAD7C18996114006881AA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	990AAD7D18996132006881AA /* mainProg.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 871}}";
+			sepNavSelRange = "{136, 143}";
+			sepNavVisRange = "{69, 379}";
+			sepNavWindowFrame = "{{0, 81}, {1280, 693}}";
+		};
+	};
+	990AAD921899617C006881AA /* mainProg.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = mainProg.cpp;
+		path = /laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1261}}";
+			sepNavSelRange = "{47, 105}";
+			sepNavVisRange = "{0, 317}";
+		};
+	};
+	990AADC518998305006881AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 990AAD921899617C006881AA /* mainProg.cpp */;
+		name = "mainProg.cpp: 4";
+		rLen = 105;
+		rLoc = 47;
+		rType = 0;
+		vrLen = 317;
+		vrLoc = 0;
+	};
+	990AADC618998305006881AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 990AAD7D18996132006881AA /* mainProg.cpp */;
+		name = "mainProg.cpp: 43";
+		rLen = 0;
+		rLoc = 752;
+		rType = 0;
+		vrLen = 341;
+		vrLoc = 199;
+	};
+	990AADC718998305006881AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 990AAD7D18996132006881AA /* mainProg.cpp */;
+		name = "mainProg.cpp: 10";
+		rLen = 143;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 69;
+	};
+}

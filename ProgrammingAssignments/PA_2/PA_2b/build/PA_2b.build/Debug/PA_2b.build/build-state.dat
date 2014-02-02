@@ -1,0 +1,278 @@
+TPA_2b
+v7
+r0
+t412446703.728433
+cCheck dependencies
+cProcessInfoPlistFile ./PA_2b.app/Contents/Info.plist Info.plist
+cCompileC build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/pa_2B.o /laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/maze.o /laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./PA_2b.app/Contents/MacOS/PA_2b normal i386
+cTouch ./PA_2b.app
+
+N./PA_2b.app
+t1390753903
+s102
+
+N./PA_2b.app/Contents/Info.plist
+t1390446689
+s713
+
+N./PA_2b.app/Contents/MacOS/PA_2b
+t1390753903
+s130892
+
+N./PA_2b.app/Contents/PkgInfo
+t1390446689
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp
+c0000000052E13CBC00000000000001CE
+t1390492860
+s462
+i"MyPoint.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.h
+c0000000052E13CAF0000000000000142
+t1390492847
+s322
+i<string>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp
+c0000000052E163140000000000000B5D
+t1390502676
+s2909
+i"maze.h"
+i"extgraph.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.h
+c0000000051460B0B0000000000000E78
+t1363544843
+s3704
+i"genlib.h"
+i"grid.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp
+c0000000052E53858000000000000135C
+t1390753880
+s4956
+i"genlib.h"
+i"simpio.h"
+i"map.h"
+i"grid.h"
+i"maze.h"
+i"vector.h"
+i"random.h"
+i<iostream>
+i"strutils.h"
+i"graphics.h"
+i"extgraph.h"
+i"stack.h"
+i"queue.h"
+i"set.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/MyPoint.o
+t1390493618
+s17144
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/PA_2b.LinkFileList
+c0000000052E1659400000000000000D3
+t1390503316
+s211
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/maze.o
+t1390502676
+s52084
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/pa_2B.o
+t1390753881
+s121300
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/bst.h
+c0000000052E06E2E0000000000004903
+t1390439982
+s18691
+i"cmpfn.h"
+i"vector.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/cmpfn.h
+c0000000052E06E2E00000000000002C5
+t1390439982
+s709
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/extgraph.h
+c0000000052E06E2E0000000000003EF7
+t1390439982
+s16119
+i"genlib.h"
+i"graphics.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/genlib.h
+c0000000052E06E2E0000000000000455
+t1390439982
+s1109
+i<string>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/graphics.h
+c0000000052E06E2E00000000000012F6
+t1390439982
+s4854
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/grid.h
+c0000000052E06E2E000000000000220A
+t1390439982
+s8714
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/libcs106.a
+c0000000052E06E2E000000000004C730
+t1390439982
+s313136
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/map.h
+c0000000052E06E2E0000000000004644
+t1390439982
+s17988
+i"vector.h"
+i<string>
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/queue.h
+c0000000052E06E2E00000000000018C2
+t1390439982
+s6338
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/random.h
+c0000000052E06E2E0000000000000684
+t1390439982
+s1668
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/set.h
+c0000000052E06E2E000000000000342A
+t1390439982
+s13354
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/simpio.h
+c0000000052E06E2E0000000000000668
+t1390439982
+s1640
+i"genlib.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/stack.h
+c0000000052E06E2E00000000000014E0
+t1390439982
+s5344
+i"vector.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/strutils.h
+c0000000052E06E2E00000000000008A6
+t1390439982
+s2214
+i"genlib.h"
+
+N/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106/vector.h
+c0000000052E06E2E0000000000002977
+t1390439982
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+NInfo.plist
+c0000000052E06E2E0000000000000326
+t1390439982
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412446703#412446703#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/MyPoint.o /laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412186418.364735
+e412186418.707941
+r1
+xCompileC
+xbuild/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/MyPoint.o
+x/laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp412186418#412186418#0(0"0(0#0#56"/laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp2453479920#809"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/PA_2b.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources/i386 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources -fstack-check -c /laurie/ProgrammingAssignments/PA_2/PA_2b/../MyPoint.cpp -o /laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/MyPoint.o0#
+
+CCompileC build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/maze.o /laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412195483.178477
+e412195483.180010
+r1
+xCompileC
+xbuild/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/maze.o
+x/laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp412195483#412195483#0(0"0(0#0#53"/laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp2453479920#803"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/PA_2b.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources/i386 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources -fstack-check -c /laurie/ProgrammingAssignments/PA_2/PA_2b/../maze.cpp -o /laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/maze.o0#
+
+CCompileC build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/pa_2B.o /laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412446703.606742
+e412446703.608742
+r1
+xCompileC
+xbuild/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/pa_2B.o
+x/laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp412446703#412446703#0(0"0(0#0#54"/laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp2453479920#805"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/PA_2b.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources/i386 -I/laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/DerivedSources -fstack-check -c /laurie/ProgrammingAssignments/PA_2/PA_2b/../pa_2B.cpp -o /laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/pa_2B.o0#
+
+CLd ./PA_2b.app/Contents/MacOS/PA_2b normal i386
+s412446703.608972
+e412446703.723194
+r1
+xLd
+x./PA_2b.app/Contents/MacOS/PA_2b
+xnormal
+xi386
+lSLF07#2@37"Link ./PA_2b.app/Contents/MacOS/PA_2b412446703#412446703#0(0"0(0#0#0"2453479920#384"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/ProgrammingAssignments/PA_2/PA_2b/cs106 -F. -filelist /laurie/ProgrammingAssignments/PA_2/PA_2b/build/PA_2b.build/Debug/PA_2b.build/Objects-normal/i386/PA_2b.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./PA_2b.app/Contents/MacOS/PA_2b0#
+
+CProcessInfoPlistFile ./PA_2b.app/Contents/Info.plist Info.plist
+s412139489.473912
+e412139489.479449
+r1
+xProcessInfoPlistFile
+x./PA_2b.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412139489#412139489#0(0"0(0#0#52"/laurie/ProgrammingAssignments/PA_2/PA_2b/Info.plist2453479920#203"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    builtin-infoPlistUtility Info.plist -genpkginfo ./PA_2b.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./PA_2b.app/Contents/Info.plist0#
+
+CTouch ./PA_2b.app
+s412446703.723320
+e412446703.728357
+r1
+xTouch
+x./PA_2b.app
+lSLF07#2@17"Touch ./PA_2b.app412446703#412446703#0(0"0(0#0#0"2453479920#83"    cd /laurie/ProgrammingAssignments/PA_2/PA_2b    /usr/bin/touch -c ./PA_2b.app0#
+

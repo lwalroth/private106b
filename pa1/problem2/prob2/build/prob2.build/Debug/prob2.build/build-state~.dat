@@ -1,0 +1,110 @@
+Tprob2
+v7
+r0
+t411277668.914989
+cCheck dependencies
+cProcessInfoPlistFile ./prob2.app/Contents/Info.plist Info.plist
+cCompileC build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o /laurie/pa1/problem2/prob2/pa2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./prob2.app
+t2
+s0
+
+N./prob2.app/Contents/Info.plist
+t1389584868
+s713
+
+N./prob2.app/Contents/MacOS/prob2
+t2
+s0
+
+N./prob2.app/Contents/PkgInfo
+t1389584868
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o
+t2
+s0
+
+N/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/prob2.LinkFileList
+c0000000052D361E40000000000000059
+t1389584868
+s89
+
+N/laurie/pa1/problem2/prob2/cs106/genlib.h
+c0000000052D35E0E0000000000000455
+t1389583886
+s1109
+i<string>
+
+N/laurie/pa1/problem2/prob2/cs106/libcs106.a
+c0000000052D35E0E000000000004C730
+t1389583886
+s313136
+
+N/laurie/pa1/problem2/prob2/cs106/simpio.h
+c0000000052D35E0E0000000000000668
+t1389583886
+s1640
+i"genlib.h"
+
+N/laurie/pa1/problem2/prob2/pa2.cpp
+c0000000052D361E4000000000000061D
+t1389584868
+s1565
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+
+NInfo.plist
+c0000000052D35E0E0000000000000326
+t1389583886
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411277668#411277668#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o /laurie/pa1/problem2/prob2/pa2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411277668.818790
+e411277668.914905
+r0
+xCompileC
+xbuild/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o
+x/laurie/pa1/problem2/prob2/pa2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /laurie/pa1/problem2/prob2/pa2.cpp411277668#411277668#0(623"/laurie/pa1/problem2/prob2/pa2.cpp:17:2: error: invalid preprocessing directive #looping/laurie/pa1/problem2/prob2/pa2.cpp:30:2: error: invalid preprocessing directive #looping/laurie/pa1/problem2/prob2/pa2.cpp:13: error: 'voters' was not declared in this scope/laurie/pa1/problem2/prob2/pa2.cpp:13: error: 'spread' was not declared in this scope/laurie/pa1/problem2/prob2/pa2.cpp:13: error: 'error' was not declared in this scope/laurie/pa1/problem2/prob2/pa2.cpp:13: error: initializer expression list treated as compound expression/laurie/pa1/problem2/prob2/pa2.cpp:13: error: expected ',' or ';' before '{' token7(4@40"Invalid preprocessing directive #looping411277668#0#89#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#17#0#17#0#33"invalid preprocessing directive *0(4@40"Invalid preprocessing directive #looping411277668#89#89#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#30#0#30#0#33"invalid preprocessing directive *0(4@39"'voters' was not declared in this scope411277668#178#86#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#13#0#13#0#34"'*' was not declared in this scope0(4@39"'spread' was not declared in this scope411277668#264#86#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#13#0#13#0#34"'*' was not declared in this scope0(4@38"'error' was not declared in this scope411277668#350#85#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#13#0#13#0#34"'*' was not declared in this scope0(4@58"Initializer expression list treated as compound expression411277668#435#105#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#13#0#13#0#0"0(4@36"Expected ',' or ';' before '{' token411277668#540#83#0(6@34"/laurie/pa1/problem2/prob2/pa2.cpp411277668#13#0#13#0#19"expected * before *0(0#0#34"/laurie/pa1/problem2/prob2/pa2.cpp2453479920#708"    cd /laurie/pa1/problem2/prob2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/prob2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/DerivedSources/i386 -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/DerivedSources -fstack-check -c /laurie/pa1/problem2/prob2/pa2.cpp -o /laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o1#
+
+CLd ./prob2.app/Contents/MacOS/prob2 normal i386
+r0
+
+CProcessInfoPlistFile ./prob2.app/Contents/Info.plist Info.plist
+s411277668.796071
+e411277668.818626
+r1
+xProcessInfoPlistFile
+x./prob2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411277668#411277668#0(0"0(0#0#37"/laurie/pa1/problem2/prob2/Info.plist2453479920#188"    cd /laurie/pa1/problem2/prob2    builtin-infoPlistUtility Info.plist -genpkginfo ./prob2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./prob2.app/Contents/Info.plist0#
+
+CTouch ./prob2.app
+r0
+

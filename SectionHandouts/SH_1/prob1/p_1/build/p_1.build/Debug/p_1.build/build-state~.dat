@@ -1,0 +1,32 @@
+Tp_1
+v7
+r1
+cCheck dependencies
+
+N./p_1.app
+t2
+s0
+
+N./p_1.app/Contents/Info.plist
+t2
+s0
+
+N./p_1.app/Contents/PkgInfo
+t2
+s0
+
+NInfo.plist
+c0000000052D6B7790000000000000326
+t1389803385
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411496510#411496510#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'411496510#4294967295#0#0(1@0"0(0#1#0"4231192#0"0#
+
+CProcessInfoPlistFile ./p_1.app/Contents/Info.plist Info.plist
+r0
+
+CTouch ./p_1.app
+r0
+

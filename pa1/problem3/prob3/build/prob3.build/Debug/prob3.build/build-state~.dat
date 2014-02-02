@@ -1,0 +1,32 @@
+Tprob3
+v7
+r1
+cCheck dependencies
+
+N./prob3.app
+t2
+s0
+
+N./prob3.app/Contents/Info.plist
+t2
+s0
+
+N./prob3.app/Contents/PkgInfo
+t2
+s0
+
+NInfo.plist
+c0000000052D41D0D0000000000000326
+t1389632781
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411327939#411327939#0(86"[BEROR]error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'1(4@78"error: There is no SDK with the name or path '/Developer/SDKs/MacOSX10.4u.sdk'411327939#4294967295#0#0(1@0"0(0#1#0"2453479920#0"0#
+
+CProcessInfoPlistFile ./prob3.app/Contents/Info.plist Info.plist
+r0
+
+CTouch ./prob3.app
+r0
+

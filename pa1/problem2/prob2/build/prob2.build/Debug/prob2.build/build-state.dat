@@ -1,0 +1,130 @@
+Tprob2
+v7
+r0
+t411325303.743934
+cCheck dependencies
+cProcessInfoPlistFile ./prob2.app/Contents/Info.plist Info.plist
+cCompileC build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o /laurie/pa1/problem2/prob2/pa2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./prob2.app/Contents/MacOS/prob2 normal i386
+cTouch ./prob2.app
+
+N./prob2.app
+t1389632503
+s102
+
+N./prob2.app/Contents/Info.plist
+t1389584868
+s713
+
+N./prob2.app/Contents/MacOS/prob2
+t1389632503
+s36240
+
+N./prob2.app/Contents/PkgInfo
+t1389584868
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o
+t1389632502
+s71708
+
+N/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/prob2.LinkFileList
+c0000000052D361E40000000000000059
+t1389584868
+s89
+
+N/laurie/pa1/problem2/prob2/cs106/genlib.h
+c0000000052D35E0E0000000000000455
+t1389583886
+s1109
+i<string>
+
+N/laurie/pa1/problem2/prob2/cs106/libcs106.a
+c0000000052D35E0E000000000004C730
+t1389583886
+s313136
+
+N/laurie/pa1/problem2/prob2/cs106/random.h
+c0000000052D35E0E0000000000000684
+t1389583886
+s1668
+
+N/laurie/pa1/problem2/prob2/cs106/simpio.h
+c0000000052D35E0E0000000000000668
+t1389583886
+s1640
+i"genlib.h"
+
+N/laurie/pa1/problem2/prob2/pa2.cpp
+c0000000052D41BF600000000000006A3
+t1389632502
+s1699
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+i"random.h"
+
+NInfo.plist
+c0000000052D35E0E0000000000000326
+t1389583886
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411325303#411325303#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o /laurie/pa1/problem2/prob2/pa2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411325303.642923
+e411325303.644472
+r1
+xCompileC
+xbuild/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o
+x/laurie/pa1/problem2/prob2/pa2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /laurie/pa1/problem2/prob2/pa2.cpp411325303#411325303#0(0"0(0#0#34"/laurie/pa1/problem2/prob2/pa2.cpp2453479920#708"    cd /laurie/pa1/problem2/prob2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/prob2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/DerivedSources/i386 -I/laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/DerivedSources -fstack-check -c /laurie/pa1/problem2/prob2/pa2.cpp -o /laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/pa2.o0#
+
+CLd ./prob2.app/Contents/MacOS/prob2 normal i386
+s411325303.644566
+e411325303.739826
+r1
+xLd
+x./prob2.app/Contents/MacOS/prob2
+xnormal
+xi386
+lSLF07#2@37"Link ./prob2.app/Contents/MacOS/prob2411325303#411325303#0(0"0(0#0#0"2453479920#339"    cd /laurie/pa1/problem2/prob2    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/pa1/problem2/prob2/cs106 -F. -filelist /laurie/pa1/problem2/prob2/build/prob2.build/Debug/prob2.build/Objects-normal/i386/prob2.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./prob2.app/Contents/MacOS/prob20#
+
+CProcessInfoPlistFile ./prob2.app/Contents/Info.plist Info.plist
+s411277668.796071
+e411277668.818626
+r1
+xProcessInfoPlistFile
+x./prob2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411277668#411277668#0(0"0(0#0#37"/laurie/pa1/problem2/prob2/Info.plist2453479920#188"    cd /laurie/pa1/problem2/prob2    builtin-infoPlistUtility Info.plist -genpkginfo ./prob2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./prob2.app/Contents/Info.plist0#
+
+CTouch ./prob2.app
+s411325303.739954
+e411325303.743874
+r1
+xTouch
+x./prob2.app
+lSLF07#2@17"Touch ./prob2.app411325303#411325303#0(0"0(0#0#0"2453479920#68"    cd /laurie/pa1/problem2/prob2    /usr/bin/touch -c ./prob2.app0#
+

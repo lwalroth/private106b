@@ -1,0 +1,127 @@
+Tprob4
+v7
+r0
+t411406140.058280
+cCheck dependencies
+cProcessInfoPlistFile ./prob4.app/Contents/Info.plist Info.plist
+cCompileC build/prob4.build/Debug/prob4.build/Objects-normal/i386/pa4.o /laurie/pa1/Problem4/prob4/pa4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./prob4.app
+t2
+s0
+
+N./prob4.app/Contents/Info.plist
+t1389713340
+s713
+
+N./prob4.app/Contents/MacOS/prob4
+t2
+s0
+
+N./prob4.app/Contents/PkgInfo
+t1389713340
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/Objects-normal/i386/pa4.o
+t2
+s0
+
+N/laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/Objects-normal/i386/prob4.LinkFileList
+c0000000052D557BC0000000000000059
+t1389713340
+s89
+
+N/laurie/pa1/Problem4/prob4/cs106/genlib.h
+c0000000052D4B7E10000000000000455
+t1389672417
+s1109
+i<string>
+
+N/laurie/pa1/Problem4/prob4/cs106/libcs106.a
+c0000000052D4B7E1000000000004C730
+t1389672417
+s313136
+
+N/laurie/pa1/Problem4/prob4/cs106/simpio.h
+c0000000052D4B7E10000000000000668
+t1389672417
+s1640
+i"genlib.h"
+
+N/laurie/pa1/Problem4/prob4/cs106/strutils.h
+c0000000052D4B7E100000000000008A6
+t1389672417
+s2214
+i"genlib.h"
+
+N/laurie/pa1/Problem4/prob4/cs106/vector.h
+c0000000052D4B7E10000000000002977
+t1389672417
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/pa1/Problem4/prob4/pa4.cpp
+c0000000052D557BB0000000000000125
+t1389713339
+s293
+i"genlib.h"
+i"strutils.h"
+i<iostream>
+i"Vector.h"
+i<fstream>
+i"simpio.h"
+
+NInfo.plist
+c0000000052D4B7E10000000000000326
+t1389672417
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411406140#411406140#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/prob4.build/Debug/prob4.build/Objects-normal/i386/pa4.o /laurie/pa1/Problem4/prob4/pa4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411406140.056743
+e411406140.058202
+r0
+xCompileC
+xbuild/prob4.build/Debug/prob4.build/Objects-normal/i386/pa4.o
+x/laurie/pa1/Problem4/prob4/pa4.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /laurie/pa1/Problem4/prob4/pa4.cpp411406140#411406140#0(150"/laurie/pa1/Problem4/prob4/pa4.cpp: In function 'int Main()':/laurie/pa1/Problem4/prob4/pa4.cpp:20: error: 'fileName' was not declared in this scope1(4@41"'fileName' was not declared in this scope411406140#62#88#0(6@34"/laurie/pa1/Problem4/prob4/pa4.cpp411406139#20#0#20#0#34"'*' was not declared in this scope0(0#0#34"/laurie/pa1/Problem4/prob4/pa4.cpp2453479920#708"    cd /laurie/pa1/Problem4/prob4    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/prob4.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/DerivedSources/i386 -I/laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/DerivedSources -fstack-check -c /laurie/pa1/Problem4/prob4/pa4.cpp -o /laurie/pa1/Problem4/prob4/build/prob4.build/Debug/prob4.build/Objects-normal/i386/pa4.o1#
+
+CLd ./prob4.app/Contents/MacOS/prob4 normal i386
+r0
+
+CProcessInfoPlistFile ./prob4.app/Contents/Info.plist Info.plist
+s411406140.038333
+e411406140.056586
+r1
+xProcessInfoPlistFile
+x./prob4.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411406140#411406140#0(0"0(0#0#37"/laurie/pa1/Problem4/prob4/Info.plist2453479920#188"    cd /laurie/pa1/Problem4/prob4    builtin-infoPlistUtility Info.plist -genpkginfo ./prob4.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./prob4.app/Contents/Info.plist0#
+
+CTouch ./prob4.app
+r0
+

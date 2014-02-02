@@ -1,0 +1,131 @@
+Tsh2prob1
+v7
+r0
+t412642852.591390
+cCheck dependencies
+cProcessInfoPlistFile ./sh2prob1.app/Contents/Info.plist Info.plist
+cCompileC build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/mainProg.o /laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./sh2prob1.app/Contents/MacOS/sh2prob1 normal i386
+cTouch ./sh2prob1.app
+
+N./sh2prob1.app
+t1390950052
+s102
+
+N./sh2prob1.app/Contents/Info.plist
+t1390950051
+s722
+
+N./sh2prob1.app/Contents/MacOS/sh2prob1
+t1390950052
+s35592
+
+N./sh2prob1.app/Contents/PkgInfo
+t1390950051
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/mainProg.o
+t1390950052
+s45816
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/sh2prob1.LinkFileList
+c0000000052E836A3000000000000006F
+t1390950051
+s111
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/cs106/genlib.h
+c0000000052E836610000000000000455
+t1390949985
+s1109
+i<string>
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/cs106/libcs106.a
+c0000000052E83661000000000004C730
+t1390949985
+s313136
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/cs106/simpio.h
+c0000000052E836610000000000000668
+t1390949985
+s1640
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/cs106/strutils.h
+c0000000052E8366100000000000008A6
+t1390949985
+s2214
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp
+c0000000052E836980000000000000100
+t1390950040
+s256
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+i"strutils.h"
+
+NInfo.plist
+c0000000052E836610000000000000326
+t1390949985
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412642851#412642851#0(0"0(0#1#0"4231192#0"0#
+
+CCompileC build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/mainProg.o /laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412642851.554442
+e412642852.039279
+r1
+xCompileC
+xbuild/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/mainProg.o
+x/laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp412642851#412642852#0(0"0(0#0#50"/laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp2453479920#811"    cd /laurie/SectionHandouts/SH_2/sh2prob1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/sh2prob1.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/DerivedSources/i386 -I/laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/DerivedSources -fstack-check -c /laurie/SectionHandouts/SH_2/sh2prob1/mainProg.cpp -o /laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/mainProg.o0#
+
+CLd ./sh2prob1.app/Contents/MacOS/sh2prob1 normal i386
+s412642852.039406
+e412642852.550781
+r1
+xLd
+x./sh2prob1.app/Contents/MacOS/sh2prob1
+xnormal
+xi386
+lSLF07#2@43"Link ./sh2prob1.app/Contents/MacOS/sh2prob1412642852#412642852#0(0"0(0#0#0"2453479920#387"    cd /laurie/SectionHandouts/SH_2/sh2prob1    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/SectionHandouts/SH_2/sh2prob1/cs106 -F. -filelist /laurie/SectionHandouts/SH_2/sh2prob1/build/sh2prob1.build/Debug/sh2prob1.build/Objects-normal/i386/sh2prob1.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./sh2prob1.app/Contents/MacOS/sh2prob10#
+
+CProcessInfoPlistFile ./sh2prob1.app/Contents/Info.plist Info.plist
+s412642851.548343
+e412642851.554259
+r1
+xProcessInfoPlistFile
+x./sh2prob1.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412642851#412642851#0(0"0(0#0#48"/laurie/SectionHandouts/SH_2/sh2prob1/Info.plist2453479920#205"    cd /laurie/SectionHandouts/SH_2/sh2prob1    builtin-infoPlistUtility Info.plist -genpkginfo ./sh2prob1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./sh2prob1.app/Contents/Info.plist0#
+
+CTouch ./sh2prob1.app
+s412642852.550903
+e412642852.591315
+r1
+xTouch
+x./sh2prob1.app
+lSLF07#2@20"Touch ./sh2prob1.app412642852#412642852#0(0"0(0#0#0"2453479920#82"    cd /laurie/SectionHandouts/SH_2/sh2prob1    /usr/bin/touch -c ./sh2prob1.app0#
+

@@ -1,0 +1,150 @@
+TPA_2
+v7
+r0
+t412636967.746772
+cCheck dependencies
+cProcessInfoPlistFile ./PA_2.app/Contents/Info.plist Info.plist
+cCompileC build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/pa_2.o /laurie/ProgrammingAssignments/PA_2/pa_2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+
+N./PA_2.app
+t1390405742
+s102
+
+N./PA_2.app/Contents/Info.plist
+t1389982892
+s710
+
+N./PA_2.app/Contents/MacOS/PA_2
+t1390405742
+s73560
+
+N./PA_2.app/Contents/PkgInfo
+t1389982892
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/PA_2.LinkFileList
+c0000000052D974AC0000000000000061
+t1389982892
+s97
+
+N/laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/pa_2.o
+t2
+s0
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/genlib.h
+c0000000052D967940000000000000455
+t1389979540
+s1109
+i<string>
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/libcs106.a
+c0000000052D96794000000000004C730
+t1389979540
+s313136
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/map.h
+c0000000052D967940000000000004644
+t1389979540
+s17988
+i"vector.h"
+i<string>
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/random.h
+c0000000052D967940000000000000684
+t1389979540
+s1668
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/simpio.h
+c0000000052D967940000000000000668
+t1389979540
+s1640
+i"genlib.h"
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/strutils.h
+c0000000052D9679400000000000008A6
+t1389979540
+s2214
+i"genlib.h"
+
+N/laurie/ProgrammingAssignments/PA_2/cs106/vector.h
+c0000000052D967940000000000002977
+t1389979540
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/ProgrammingAssignments/PA_2/pa_2.cpp
+c00000000000000000000000000000000
+t2
+s0
+
+NInfo.plist
+c0000000052D967940000000000000326
+t1389979540
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412636967#412636967#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/pa_2.o /laurie/ProgrammingAssignments/PA_2/pa_2.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412636967.736566
+e412636967.746657
+r0
+xCompileC
+xbuild/PA_2.build/Debug/PA_2.build/Objects-normal/i386/pa_2.o
+x/laurie/ProgrammingAssignments/PA_2/pa_2.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /laurie/ProgrammingAssignments/PA_2/pa_2.cpp: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x c++' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@52"Compile /laurie/ProgrammingAssignments/PA_2/pa_2.cpp412636967#412636967#0(293"i686-apple-darwin10-gcc-4.2.1: /laurie/ProgrammingAssignments/PA_2/pa_2.cpp: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x c++' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1412636967#4294967295#0#0(1@0"0(0#0#44"/laurie/ProgrammingAssignments/PA_2/pa_2.cpp2453479920#755"    cd /laurie/ProgrammingAssignments/PA_2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/PA_2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/DerivedSources/i386 -I/laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/DerivedSources -fstack-check -c /laurie/ProgrammingAssignments/PA_2/pa_2.cpp -o /laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/pa_2.o1#
+
+CLd ./PA_2.app/Contents/MacOS/PA_2 normal i386
+s412098542.330950
+e412098542.451765
+r1
+xLd
+x./PA_2.app/Contents/MacOS/PA_2
+xnormal
+xi386
+lSLF07#2@35"Link ./PA_2.app/Contents/MacOS/PA_2412098542#412098542#0(0"0(0#0#0"2453479920#361"    cd /laurie/ProgrammingAssignments/PA_2    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/ProgrammingAssignments/PA_2/cs106 -F. -filelist /laurie/ProgrammingAssignments/PA_2/build/PA_2.build/Debug/PA_2.build/Objects-normal/i386/PA_2.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./PA_2.app/Contents/MacOS/PA_20#
+
+CProcessInfoPlistFile ./PA_2.app/Contents/Info.plist Info.plist
+s411675692.336406
+e411675692.341529
+r1
+xProcessInfoPlistFile
+x./PA_2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411675692#411675692#0(0"0(0#0#46"/laurie/ProgrammingAssignments/PA_2/Info.plist2453479920#195"    cd /laurie/ProgrammingAssignments/PA_2    builtin-infoPlistUtility Info.plist -genpkginfo ./PA_2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./PA_2.app/Contents/Info.plist0#
+
+CTouch ./PA_2.app
+s412098542.451908
+e412098542.455861
+r1
+xTouch
+x./PA_2.app
+lSLF07#2@16"Touch ./PA_2.app412098542#412098542#0(0"0(0#0#0"2453479920#76"    cd /laurie/ProgrammingAssignments/PA_2    /usr/bin/touch -c ./PA_2.app0#
+

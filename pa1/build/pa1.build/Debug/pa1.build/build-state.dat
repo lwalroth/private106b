@@ -1,0 +1,124 @@
+Tpa1
+v7
+r0
+t411273725.828501
+cCheck dependencies
+cProcessInfoPlistFile ./pa1.app/Contents/Info.plist Info.plist
+cCompileC build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.o /laurie/pa1/pa1.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./pa1.app/Contents/MacOS/pa1 normal i386
+cTouch ./pa1.app
+
+N./pa1.app
+t1389580925
+s102
+
+N./pa1.app/Contents/Info.plist
+t1389576561
+s707
+
+N./pa1.app/Contents/MacOS/pa1
+t1389580925
+s35820
+
+N./pa1.app/Contents/PkgInfo
+t1389576561
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/pa1/build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.LinkFileList
+c0000000052D34DB20000000000000046
+t1389579698
+s70
+
+N/laurie/pa1/build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.o
+t1389580925
+s66676
+
+N/laurie/pa1/cs106/genlib.h
+c0000000052D340CB0000000000000455
+t1389576395
+s1109
+i<string>
+
+N/laurie/pa1/cs106/libcs106.a
+c0000000052D340CB000000000004C730
+t1389576395
+s313136
+
+N/laurie/pa1/cs106/simpio.h
+c0000000052D340CB0000000000000668
+t1389576395
+s1640
+i"genlib.h"
+
+N/laurie/pa1/pa1.cpp
+c0000000052D3527C000000000000020F
+t1389580924
+s527
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+
+NInfo.plist
+c0000000052D340CB0000000000000326
+t1389576395
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411273724#411273724#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.o /laurie/pa1/pa1.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411273724.906865
+e411273725.730791
+r1
+xCompileC
+xbuild/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.o
+x/laurie/pa1/pa1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Compile /laurie/pa1/pa1.cpp411273724#411273725#0(0"0(0#0#19"/laurie/pa1/pa1.cpp2453479920#600"    cd /laurie/pa1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/pa1/build/pa1.build/Debug/pa1.build/pa1.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/pa1/build/pa1.build/Debug/pa1.build/DerivedSources/i386 -I/laurie/pa1/build/pa1.build/Debug/pa1.build/DerivedSources -fstack-check -c /laurie/pa1/pa1.cpp -o /laurie/pa1/build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.o0#
+
+CLd ./pa1.app/Contents/MacOS/pa1 normal i386
+s411273725.730960
+e411273725.824276
+r1
+xLd
+x./pa1.app/Contents/MacOS/pa1
+xnormal
+xi386
+lSLF07#2@33"Link ./pa1.app/Contents/MacOS/pa1411273725#411273725#0(0"0(0#0#0"2453479920#284"    cd /laurie/pa1    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/pa1/cs106 -F. -filelist /laurie/pa1/build/pa1.build/Debug/pa1.build/Objects-normal/i386/pa1.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./pa1.app/Contents/MacOS/pa10#
+
+CProcessInfoPlistFile ./pa1.app/Contents/Info.plist Info.plist
+s411269361.698281
+e411269361.785262
+r1
+xProcessInfoPlistFile
+x./pa1.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411269361#411269361#0(0"0(0#0#22"/laurie/pa1/Info.plist4231192#169"    cd /laurie/pa1    builtin-infoPlistUtility Info.plist -genpkginfo ./pa1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./pa1.app/Contents/Info.plist0#
+
+CTouch ./pa1.app
+s411273725.824401
+e411273725.828401
+r1
+xTouch
+x./pa1.app
+lSLF07#2@15"Touch ./pa1.app411273725#411273725#0(0"0(0#0#0"2453479920#51"    cd /laurie/pa1    /usr/bin/touch -c ./pa1.app0#
+

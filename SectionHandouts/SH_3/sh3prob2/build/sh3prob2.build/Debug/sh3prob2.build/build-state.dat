@@ -1,0 +1,203 @@
+Tsh3prob2
+v7
+r0
+t413005571.494272
+cCheck dependencies
+cProcessInfoPlistFile ./sh3prob2.app/Contents/Info.plist Info.plist
+cCompileC build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/MainProg.o /laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./sh3prob2.app/Contents/MacOS/sh3prob2 normal i386
+cTouch ./sh3prob2.app
+
+N./sh3prob2.app
+t1391312771
+s102
+
+N./sh3prob2.app/Contents/Info.plist
+t1391301803
+s722
+
+N./sh3prob2.app/Contents/MacOS/sh3prob2
+t1391312771
+s65860
+
+N./sh3prob2.app/Contents/PkgInfo
+t1391301803
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp
+c0000000052EDBF82000000000000061D
+t1391312770
+s1565
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+i"strutils.h"
+i"vector.h"
+i"queue.h"
+i"stack.h"
+i<fstream>
+i"map.h"
+i"grid.h"
+i"set.h"
+i"random.h"
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/MainProg.o
+t1391312771
+s113144
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/sh3prob2.LinkFileList
+c0000000052ED94AB000000000000006F
+t1391301803
+s111
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/bst.h
+c0000000052ED8E5E0000000000004903
+t1391300190
+s18691
+i"cmpfn.h"
+i"vector.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/cmpfn.h
+c0000000052ED8E5E00000000000002C5
+t1391300190
+s709
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/genlib.h
+c0000000052ED8E5E0000000000000455
+t1391300190
+s1109
+i<string>
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/grid.h
+c0000000052ED8E5E000000000000220A
+t1391300190
+s8714
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/libcs106.a
+c0000000052ED8E5E000000000004C730
+t1391300190
+s313136
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/map.h
+c0000000052ED8E5E0000000000004644
+t1391300190
+s17988
+i"vector.h"
+i<string>
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/queue.h
+c0000000052ED8E5E00000000000018C2
+t1391300190
+s6338
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/random.h
+c0000000052ED8E5E0000000000000684
+t1391300190
+s1668
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/set.h
+c0000000052ED8E5E000000000000342A
+t1391300190
+s13354
+i"cmpfn.h"
+i"bst.h"
+i"vector.h"
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/simpio.h
+c0000000052ED8E5E0000000000000668
+t1391300190
+s1640
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/stack.h
+c0000000052ED8E5E00000000000014E0
+t1391300190
+s5344
+i"vector.h"
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/strutils.h
+c0000000052ED8E5E00000000000008A6
+t1391300190
+s2214
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_3/sh3prob2/cs106/vector.h
+c0000000052ED8E5E0000000000002977
+t1391300190
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+NInfo.plist
+c0000000052ED8E5E0000000000000326
+t1391300190
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies413005571#413005571#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/MainProg.o /laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s413005571.391227
+e413005571.392745
+r1
+xCompileC
+xbuild/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/MainProg.o
+x/laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp413005571#413005571#0(0"0(0#0#50"/laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp2453479920#811"    cd /laurie/SectionHandouts/SH_3/sh3prob2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/sh3prob2.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/DerivedSources/i386 -I/laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/DerivedSources -fstack-check -c /laurie/SectionHandouts/SH_3/sh3prob2/MainProg.cpp -o /laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/MainProg.o0#
+
+CLd ./sh3prob2.app/Contents/MacOS/sh3prob2 normal i386
+s413005571.392835
+e413005571.490156
+r1
+xLd
+x./sh3prob2.app/Contents/MacOS/sh3prob2
+xnormal
+xi386
+lSLF07#2@43"Link ./sh3prob2.app/Contents/MacOS/sh3prob2413005571#413005571#0(0"0(0#0#0"2453479920#387"    cd /laurie/SectionHandouts/SH_3/sh3prob2    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/SectionHandouts/SH_3/sh3prob2/cs106 -F. -filelist /laurie/SectionHandouts/SH_3/sh3prob2/build/sh3prob2.build/Debug/sh3prob2.build/Objects-normal/i386/sh3prob2.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./sh3prob2.app/Contents/MacOS/sh3prob20#
+
+CProcessInfoPlistFile ./sh3prob2.app/Contents/Info.plist Info.plist
+s412994603.369133
+e412994603.373518
+r1
+xProcessInfoPlistFile
+x./sh3prob2.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412994603#412994603#0(0"0(0#0#48"/laurie/SectionHandouts/SH_3/sh3prob2/Info.plist2453479920#205"    cd /laurie/SectionHandouts/SH_3/sh3prob2    builtin-infoPlistUtility Info.plist -genpkginfo ./sh3prob2.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./sh3prob2.app/Contents/Info.plist0#
+
+CTouch ./sh3prob2.app
+s413005571.490292
+e413005571.494210
+r1
+xTouch
+x./sh3prob2.app
+lSLF07#2@20"Touch ./sh3prob2.app413005571#413005571#0(0"0(0#0#0"2453479920#82"    cd /laurie/SectionHandouts/SH_3/sh3prob2    /usr/bin/touch -c ./sh3prob2.app0#
+

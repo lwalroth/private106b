@@ -1,0 +1,117 @@
+Twarm_up_a
+v7
+r0
+t412877553.097281
+cCheck dependencies
+cProcessInfoPlistFile ./warm_up_a.app/Contents/Info.plist Info.plist
+cCompileC build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/MainProg.o /laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./warm_up_a.app/Contents/MacOS/warm_up_a normal i386
+cTouch ./warm_up_a.app
+
+N./warm_up_a.app
+t1391184753
+s102
+
+N./warm_up_a.app/Contents/Info.plist
+t1391184696
+s725
+
+N./warm_up_a.app/Contents/MacOS/warm_up_a
+t1391184753
+s35808
+
+N./warm_up_a.app/Contents/PkgInfo
+t1391184696
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp
+c0000000052EBCB6E000000000000013F
+t1391184750
+s319
+i<iostream>
+i"genlib.h"
+
+N/laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/MainProg.o
+t1391184751
+s66608
+
+N/laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/warm_up_a.LinkFileList
+c0000000052EBCB380000000000000079
+t1391184696
+s121
+
+N/laurie/ProgrammingAssignments/PA_3/warm_up_a/cs106/genlib.h
+c0000000052EBC92F0000000000000455
+t1391184175
+s1109
+i<string>
+
+N/laurie/ProgrammingAssignments/PA_3/warm_up_a/cs106/libcs106.a
+c0000000052EBC92F000000000004C730
+t1391184175
+s313136
+
+NInfo.plist
+c0000000052EBC92F0000000000000326
+t1391184175
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412877551#412877551#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/MainProg.o /laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412877551.748641
+e412877551.750099
+r1
+xCompileC
+xbuild/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/MainProg.o
+x/laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp412877551#412877551#0(0"0(0#0#58"/laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp2453479920#868"    cd /laurie/ProgrammingAssignments/PA_3/warm_up_a    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/warm_up_a.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/DerivedSources/i386 -I/laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/DerivedSources -fstack-check -c /laurie/ProgrammingAssignments/PA_3/warm_up_a/MainProg.cpp -o /laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/MainProg.o0#
+
+CLd ./warm_up_a.app/Contents/MacOS/warm_up_a normal i386
+s412877551.750194
+e412877553.044709
+r1
+xLd
+x./warm_up_a.app/Contents/MacOS/warm_up_a
+xnormal
+xi386
+lSLF07#2@45"Link ./warm_up_a.app/Contents/MacOS/warm_up_a412877551#412877553#0(0"0(0#0#0"2453479920#416"    cd /laurie/ProgrammingAssignments/PA_3/warm_up_a    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/ProgrammingAssignments/PA_3/warm_up_a/cs106 -F. -filelist /laurie/ProgrammingAssignments/PA_3/warm_up_a/build/warm_up_a.build/Debug/warm_up_a.build/Objects-normal/i386/warm_up_a.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./warm_up_a.app/Contents/MacOS/warm_up_a0#
+
+CProcessInfoPlistFile ./warm_up_a.app/Contents/Info.plist Info.plist
+s412877496.619771
+e412877496.644583
+r1
+xProcessInfoPlistFile
+x./warm_up_a.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412877496#412877496#0(0"0(0#0#56"/laurie/ProgrammingAssignments/PA_3/warm_up_a/Info.plist2453479920#215"    cd /laurie/ProgrammingAssignments/PA_3/warm_up_a    builtin-infoPlistUtility Info.plist -genpkginfo ./warm_up_a.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./warm_up_a.app/Contents/Info.plist0#
+
+CTouch ./warm_up_a.app
+s412877553.044844
+e412877553.097193
+r1
+xTouch
+x./warm_up_a.app
+lSLF07#2@21"Touch ./warm_up_a.app412877553#412877553#0(0"0(0#0#0"2453479920#91"    cd /laurie/ProgrammingAssignments/PA_3/warm_up_a    /usr/bin/touch -c ./warm_up_a.app0#
+

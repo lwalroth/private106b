@@ -1,0 +1,147 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 990AACE118986DE1006881AA /* sh2prob1 */;
+		activeTarget = 8D1107260486CEB800E47090 /* sh2prob1 */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* sh2prob1 */,
+		);
+		codeSenseManager = 990AACF018986DF7006881AA /* Code sense */;
+		executables = (
+			990AACE118986DE1006881AA /* sh2prob1 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 412642785;
+			PBXWorkspaceStateSaveDate = 412642785;
+		};
+		perUserProjectItems = {
+			990AAD4D189899B4006881AA /* PBXTextBookmark */ = 990AAD4D189899B4006881AA /* PBXTextBookmark */;
+			990AAD5B18989CC9006881AA /* XCBuildMessageTextBookmark */ = 990AAD5B18989CC9006881AA /* XCBuildMessageTextBookmark */;
+			990AAD8018996156006881AA /* PBXTextBookmark */ = 990AAD8018996156006881AA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 990AACEF18986DF7006881AA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* sh2prob1 */ = {
+		activeExec = 0;
+		executables = (
+			990AACE118986DE1006881AA /* sh2prob1 */,
+		);
+	};
+	990AACE118986DE1006881AA /* sh2prob1 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = sh2prob1;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	990AACED18986DF7006881AA /* mainProg.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 1222}}";
+			sepNavSelRange = "{1342, 0}";
+			sepNavVisRange = "{956, 215}";
+		};
+	};
+	990AACEF18986DF7006881AA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	990AACF018986DF7006881AA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	990AAD331898915E006881AA /* pa_2B.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = pa_2B.cpp;
+		path = /laurie/ProgrammingAssignments/PA_2/pa_2B.cpp;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2756}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{489, 728}";
+		};
+	};
+	990AAD4D189899B4006881AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 990AAD331898915E006881AA /* pa_2B.cpp */;
+		name = "pa_2B.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 728;
+		vrLoc = 489;
+	};
+	990AAD5B18989CC9006881AA /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected primary-expression before 'return'";
+		fRef = 990AACED18986DF7006881AA /* mainProg.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 95;
+		rType = 1;
+	};
+	990AAD8018996156006881AA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 990AACED18986DF7006881AA /* mainProg.cpp */;
+		name = "mainProg.cpp: 92";
+		rLen = 0;
+		rLoc = 1334;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 700;
+	};
+}

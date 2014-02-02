@@ -1,0 +1,141 @@
+Tp_1
+v7
+r0
+t411497308.906415
+cCheck dependencies
+cProcessInfoPlistFile ./p_1.app/Contents/Info.plist Info.plist
+cCompileC build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.o /laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./p_1.app/Contents/MacOS/p_1 normal i386
+cTouch ./p_1.app
+
+N./p_1.app
+t1389804508
+s102
+
+N./p_1.app/Contents/Info.plist
+t1389803742
+s707
+
+N./p_1.app/Contents/MacOS/p_1
+t1389804508
+s36784
+
+N./p_1.app/Contents/PkgInfo
+t1389803742
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.LinkFileList
+c0000000052D6B8DE0000000000000061
+t1389803742
+s97
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.o
+t1389804508
+s69952
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/cs106/genlib.h
+c0000000052D6B77A0000000000000455
+t1389803386
+s1109
+i<string>
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/cs106/libcs106.a
+c0000000052D6B77A000000000004C730
+t1389803386
+s313136
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/cs106/simpio.h
+c0000000052D6B77A0000000000000668
+t1389803386
+s1640
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/cs106/strutils.h
+c0000000052D6B77A00000000000008A6
+t1389803386
+s2214
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/cs106/vector.h
+c0000000052D6B77A0000000000002977
+t1389803386
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp
+c0000000052D96977000000000000030C
+t1389980023
+s780
+i"genlib.h"
+i"strutils.h"
+i<iostream>
+i"Vector.h"
+i<fstream>
+i"simpio.h"
+
+NInfo.plist
+c0000000052D6B7790000000000000326
+t1389803385
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies411497308#411497308#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.o /laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s411497308.178332
+e411497308.813447
+r1
+xCompileC
+xbuild/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.o
+x/laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp411497308#411497308#0(0"0(0#0#46"/laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp2453479920#762"    cd /laurie/SectionHandouts/SH_1/prob1/p_1    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/p_1.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/DerivedSources/i386 -I/laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/DerivedSources -fstack-check -c /laurie/SectionHandouts/SH_1/prob1/p_1/p_1.cpp -o /laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.o0#
+
+CLd ./p_1.app/Contents/MacOS/p_1 normal i386
+s411497308.813588
+e411497308.901640
+r1
+xLd
+x./p_1.app/Contents/MacOS/p_1
+xnormal
+xi386
+lSLF07#2@33"Link ./p_1.app/Contents/MacOS/p_1411497308#411497308#0(0"0(0#0#0"2453479920#365"    cd /laurie/SectionHandouts/SH_1/prob1/p_1    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/SectionHandouts/SH_1/prob1/p_1/cs106 -F. -filelist /laurie/SectionHandouts/SH_1/prob1/p_1/build/p_1.build/Debug/p_1.build/Objects-normal/i386/p_1.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./p_1.app/Contents/MacOS/p_10#
+
+CProcessInfoPlistFile ./p_1.app/Contents/Info.plist Info.plist
+s411496542.358932
+e411496542.383445
+r1
+xProcessInfoPlistFile
+x./p_1.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist411496542#411496542#0(0"0(0#0#49"/laurie/SectionHandouts/SH_1/prob1/p_1/Info.plist4231192#196"    cd /laurie/SectionHandouts/SH_1/prob1/p_1    builtin-infoPlistUtility Info.plist -genpkginfo ./p_1.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./p_1.app/Contents/Info.plist0#
+
+CTouch ./p_1.app
+s411497308.901766
+e411497308.906340
+r1
+xTouch
+x./p_1.app
+lSLF07#2@15"Touch ./p_1.app411497308#411497308#0(0"0(0#0#0"2453479920#78"    cd /laurie/SectionHandouts/SH_1/prob1/p_1    /usr/bin/touch -c ./p_1.app0#
+

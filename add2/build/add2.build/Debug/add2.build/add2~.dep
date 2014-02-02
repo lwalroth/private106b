@@ -1,0 +1,5 @@
+ab21fe118a073c0ec38292eb27b67d6c 8cae88d808688d4b14fd323c35954017 ffffffffffffffffffffffffffffffff 102 /laurie/add2/add2.app
+553e5f3efe1bdd367e71d9ce106df325 fe1fa12f741ce138bdf34b2537db8e49 ffffffffffffffffffffffffffffffff 38624 /laurie/add2/add2.app/Contents/MacOS/add2
+00000000000000000000000000000000 df1ee03306f9df580cd02e1db8d8d459 ffffffffffffffffffffffffffffffff 8 /laurie/add2/add2.app/Contents/PkgInfo
+00000000000000000000000000000000 df1ee03306f9df580cd02e1db8d8d459 ffffffffffffffffffffffffffffffff 710 /laurie/add2/add2.app/Contents/Info.plist
+000000000000008700000000000007b8 553e5f3ef9347de07e71d9ce10116a3d ffffffffffffffffffffffffffffffff 66808 /laurie/add2/build/add2.build/Debug/add2.build/Objects-normal/i386/add2.o

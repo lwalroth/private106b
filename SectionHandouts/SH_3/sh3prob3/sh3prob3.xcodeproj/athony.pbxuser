@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 990AB0C9189DF733006881AA /* sh3prob3 */;
+		activeTarget = 8D1107260486CEB800E47090 /* sh3prob3 */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* sh3prob3 */,
+		);
+		codeSenseManager = 990AB0D1189DF741006881AA /* Code sense */;
+		executables = (
+			990AB0C9189DF733006881AA /* sh3prob3 */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 413005619;
+			PBXWorkspaceStateSaveDate = 413005619;
+		};
+		sourceControlManager = 990AB0D0189DF741006881AA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* sh3prob3 */ = {
+		activeExec = 0;
+		executables = (
+			990AB0C9189DF733006881AA /* sh3prob3 */,
+		);
+	};
+	990AB0C9189DF733006881AA /* sh3prob3 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = sh3prob3;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	990AB0D0189DF741006881AA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	990AB0D1189DF741006881AA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

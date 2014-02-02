@@ -1,0 +1,173 @@
+Tsh2_pb3
+v7
+r0
+t412746070.373288
+cCheck dependencies
+cProcessInfoPlistFile ./sh2_pb3.app/Contents/Info.plist Info.plist
+cCompileC build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/mainProg.o /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd ./sh2_pb3.app/Contents/MacOS/sh2_pb3 normal i386
+cTouch ./sh2_pb3.app
+
+N./sh2_pb3.app
+t1391053270
+s102
+
+N./sh2_pb3.app/Contents/Info.plist
+t1391026629
+s719
+
+N./sh2_pb3.app/Contents/MacOS/sh2_pb3
+t1391053270
+s66668
+
+N./sh2_pb3.app/Contents/PkgInfo
+t1391026629
+s8
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E2093A0000000000000A5F0
+t1310757792
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000051C3586D0000000000785980
+t1371756653
+s7887232
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/mainProg.o
+t1391053269
+s120808
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/sh2_pb3.LinkFileList
+c0000000052E961C50000000000000075
+t1391026629
+s117
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/genlib.h
+c0000000052E94B650000000000000455
+t1391020901
+s1109
+i<string>
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/libcs106.a
+c0000000052E94B65000000000004C730
+t1391020901
+s313136
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/map.h
+c0000000052E94B650000000000004644
+t1391020901
+s17988
+i"vector.h"
+i<string>
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/queue.h
+c0000000052E94B6500000000000018C2
+t1391020901
+s6338
+i"genlib.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/scanner.h
+c0000000052E94B6500000000000024EE
+t1391020901
+s9454
+i<string>
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/simpio.h
+c0000000052E94B650000000000000668
+t1391020901
+s1640
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/stack.h
+c0000000052E94B6500000000000014E0
+t1391020901
+s5344
+i"vector.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/strutils.h
+c0000000052E94B6500000000000008A6
+t1391020901
+s2214
+i"genlib.h"
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106/vector.h
+c0000000052E94B650000000000002977
+t1391020901
+s10615
+i"genlib.h"
+i"strutils.h"
+i<cstdlib>
+
+N/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp
+c0000000052E9C9D5000000000000041A
+t1391053269
+s1050
+i<iostream>
+i"genlib.h"
+i"simpio.h"
+i"strutils.h"
+i"vector.h"
+i"queue.h"
+i"stack.h"
+i<fstream>
+i"map.h"
+
+NInfo.plist
+c0000000052E94B650000000000000326
+t1391020901
+s806
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies412746070#412746070#0(0"0(0#1#0"2453479920#0"0#
+
+CCompileC build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/mainProg.o /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s412746070.259333
+e412746070.260780
+r1
+xCompileC
+xbuild/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/mainProg.o
+x/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp412746070#412746070#0(0"0(0#0#58"/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp2453479920#850"    cd /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -fvisibility-inlines-hidden -gdwarf-2 -I/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/sh2_pb3.hmap -Wall -Wno-sign-compare -F. -Ics106 -Iinclude -I/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/DerivedSources/i386 -I/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/DerivedSources -fstack-check -c /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/mainProg.cpp -o /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/mainProg.o0#
+
+CLd ./sh2_pb3.app/Contents/MacOS/sh2_pb3 normal i386
+s412746070.260864
+e412746070.369116
+r1
+xLd
+x./sh2_pb3.app/Contents/MacOS/sh2_pb3
+xnormal
+xi386
+lSLF07#2@41"Link ./sh2_pb3.app/Contents/MacOS/sh2_pb3412746070#412746070#0(0"0(0#0#0"2453479920#406"    cd /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3    /Developer/usr/bin/g++-4.2 -arch i386 -L. -Lcs106 -L/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/cs106 -F. -filelist /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/build/sh2_pb3.build/Debug/sh2_pb3.build/Objects-normal/i386/sh2_pb3.LinkFileList -framework Cocoa -framework Carbon -framework QuickTime -lcs106 -o ./sh2_pb3.app/Contents/MacOS/sh2_pb30#
+
+CProcessInfoPlistFile ./sh2_pb3.app/Contents/Info.plist Info.plist
+s412719429.053043
+e412719429.057120
+r1
+xProcessInfoPlistFile
+x./sh2_pb3.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist412719429#412719429#0(0"0(0#0#56"/laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3/Info.plist2453479920#211"    cd /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3    builtin-infoPlistUtility Info.plist -genpkginfo ./sh2_pb3.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o ./sh2_pb3.app/Contents/Info.plist0#
+
+CTouch ./sh2_pb3.app
+s412746070.369255
+e412746070.373228
+r1
+xTouch
+x./sh2_pb3.app
+lSLF07#2@19"Touch ./sh2_pb3.app412746070#412746070#0(0"0(0#0#0"2453479920#89"    cd /laurie/SectionHandouts/SH_2/sh2prob3/sh2_pb3    /usr/bin/touch -c ./sh2_pb3.app0#
+
